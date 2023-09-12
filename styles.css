@@ -1,0 +1,52 @@
+/* Updated CSS with Google logo-inspired colors */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+header {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners for all sections */
+}
+
+ul {
+    list-style-type: square;
+}
+
+.attorney, .testimonial {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners for attorney and testimonial sections */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+/* Buttons */
+.contact-button {
+    background-color: #0f9d58; /* Google Green */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #0a7d41; /* Darker green on hover */
+}
